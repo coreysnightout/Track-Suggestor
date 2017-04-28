@@ -1,6 +1,7 @@
 ////Front end Logic////
 $(function() {
   $("form#survey").submit(function(event){
+    event.preventDefault();
     $(".codeImages").hide();
     var age = parseInt($("input#age").val());
     var creative = $("select#creative").val();
@@ -21,8 +22,6 @@ $(function() {
       $(".ruby").show();
     } else {
       $(".css").show();
-    }
-    event.preventDefault();
     });
   });
 
