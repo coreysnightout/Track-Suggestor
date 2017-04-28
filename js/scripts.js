@@ -1,17 +1,13 @@
 ////Front end Logic////
 $(function() {
   $("form#survey").submit(function(event){
-    $(".coding").hide();
+    $(".codeImages").hide();
     var age = parseInt($("input#age").val());
     var creative = $("select#creative").val();
     var php = $("select#php").val();
     var ruby = $("select#ruby").val();
     var backEnd = ($('input[name=select]:checked').val());
-    // console.log(age);
-    // console.log(creative);
-    // console.log(php);
-    // console.log(ruby);
-    // console.log(backEnd);
+
 
     if (age > 50 && creative === "yes" && php === "no" && ruby === "apple" && backEnd = "no" ) {
       $(".css").show();
@@ -20,12 +16,10 @@ $(function() {
     } else if (age < 50 && creative === "no" && php === "no" && ruby === "android" && backEnd = "yes") {
       $(".ruby").show();
     } else if (age > 50 && creative === "yes" && php === "no" && ruby === "apple" && backEnd = "yes") {
-      $(".cSharp").val();
+      $(".cSharp").show();
     }
-
-
-
     event.preventDefault();
+    });
   });
 
 

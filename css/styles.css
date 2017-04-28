@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #3e4959;
 }
 
 .jumbotron {
@@ -7,11 +7,26 @@ body {
   background: #f5f3f1;
 }
 
+.jumboPic {
+  max-width: 300px;
+  max-height: auto;
+}
+
+legend {
+  color: #d0d5e0;
+}
+
+label {
+  color: #d0d5e0;
+}
+
 .basic-well {
   background-color: #f5f3f1;
-  border-radius: 3%;
+  border-radius: 5%;
   padding: 8px;
   text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .btn {
@@ -20,6 +35,17 @@ body {
   margin-top: 5px;
 }
 
-.coding {
+.container {
+  text-align: center;
+}
+
+.codeImages {
+  display: none;
+}
+/*.coding {
   display:none;
+}*/
+
+h2 {
+  color: #3e4959;
 }
