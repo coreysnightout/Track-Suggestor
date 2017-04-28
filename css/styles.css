@@ -1,14 +1,17 @@
 .jumbotron {
   text-align: center;
+  background: #f5f3f1;
 }
 
 .basic-well {
   background-color: #f5f3f1;
   border-radius: 3%;
-  padding: 3px;
+  padding: 8px;
   text-align: center;
 }
 
 .btn {
   background: #f5f3f1;
+  padding: 3px;
+  margin-top: 5px;
 }
