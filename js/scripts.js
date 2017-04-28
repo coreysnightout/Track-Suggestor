@@ -1,3 +1,4 @@
+////Front end Logic////
 $(function() {
   $("form#survey").submit(function(event){
     $(".coding").hide();
@@ -6,6 +7,11 @@ $(function() {
     var php = $("select#php").val();
     var ruby = $("select#ruby").val();
     var backEnd = ($('input[name=select]:checked').val());
+    // console.log(age);
+    // console.log(creative);
+    // console.log(php);
+    // console.log(ruby);
+    // console.log(backEnd);
 
     if (age > 50 && creative === "yes" && php === "no" && ruby === "apple" && backEnd = "no" ) {
       $(".css").show();
