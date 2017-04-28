@@ -3,7 +3,8 @@ $(function() {
     $(".coding").hide();
     var age = parseInt($("input#age").val());
     var creative = $("select#creative").val();
-    var php = $(select#php).val();
+    var php = $("select#php").val();
+    var ruby = $("select#ruby").val();
     var selector = ($('input[name=select]:checked').val());
 
   })
