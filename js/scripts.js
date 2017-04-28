@@ -17,6 +17,10 @@ $(function() {
       $(".ruby").show();
     } else if (age > 50 && creative === "yes" && php === "no" && ruby === "apple" && backEnd = "yes") {
       $(".cSharp").show();
+    } else if (age < 50 && creative === "no" && php === "yes" && ruby === "android" && backEnd = "maybe") {
+      $(".ruby").show();
+    } else {
+      $(".css").show();
     }
     event.preventDefault();
     });
