@@ -22,8 +22,8 @@ label {
 
 .basic-well {
   background-color: #f5f3f1;
-  border-radius: 5%;
-  padding: 8px;
+  border-radius: 10px;
+  padding: 10px;
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
@@ -31,7 +31,7 @@ label {
 
 .btn {
   background: #f5f3f1;
-  padding: 3px;
+  padding: px;
   margin-top: 5px;
 }
 
@@ -39,12 +39,10 @@ label {
   text-align: center;
 }
 
-.codeImages {
+.css, .php, .ruby, .cSharp {
   display: none;
 }
-/*.coding {
-  display:none;
-}*/
+
 
 h2 {
   color: #3e4959;
