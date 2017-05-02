@@ -1,4 +1,4 @@
-////Front end Logic////
+////Front End Logic////
 $(function() {
   $("form#survey").submit(function(event){
     event.preventDefault();
@@ -9,6 +9,7 @@ $(function() {
     var ruby = $("select#ruby").val();
     var backEnd = $('input:radio[name=select]:checked').val();
 
+////Back End Logic////
 
     if ((age > 50) && (creative === "yes") && (php === "no") && (ruby === "apple") && (backEnd = "no")) {
       $(".css").show();
@@ -24,9 +25,9 @@ $(function() {
       $(".css").show();
     }
   });
-  // $("#reset").click(function(event) {
-  //   form.reset();
-  // });
+  $("#reset").click(function(event) {
+    form.reset();
+  });
 });
 
 
